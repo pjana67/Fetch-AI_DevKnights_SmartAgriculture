@@ -16,6 +16,15 @@ TECHNOLOGIES USED:
 4. APIs: weather(open-meteo), Soil(IARC)
 5. FETCHAI Uagents. one of which gets data from 'open-meteo' API.
 
+Starting the Application:
+1. Go to master branch in github repository
+2. Download files in the same manner as the uploaded project directory
+3. In terminal/command prompt navigate to project directory
+4. Enter client directory and use the code 'npm start' to start the frontend server at localhost:3000
+5. Then navigate to server directory and enter the following code 'node index.js' to start backend server at localhost:3001
+6. The mongodb database can be accesed through 'mongodb://localhost:27017/myapp'
+7. The weatheragent.py is running on localhost:5000/weather
+
 USAGE:
 1. Register an account: Navigate to the registration page and create a new account.
 2. Log in: Use your credentials to log in.
