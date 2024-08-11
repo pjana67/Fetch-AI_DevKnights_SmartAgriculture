@@ -27,8 +27,9 @@ Starting the Application:
 
 USAGE:
 1. Register an account: Navigate to the registration page and create a new account.
-2. Log in: Use your credentials to log in.
-3. Navigate through the platform:
+2. These details will be added to the MongoDB database 
+3. Log in: Use your credentials to log in.
+4. Navigate through the platform:
    
     1.Weather Tab: View the seven-day weather forecast.
    
