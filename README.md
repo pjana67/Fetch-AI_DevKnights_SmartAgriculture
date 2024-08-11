@@ -20,7 +20,13 @@ USAGE:
 1. Register an account: Navigate to the registration page and create a new account.
 2. Log in: Use your credentials to log in.
 3. Navigate through the platform:
+   
     1.Weather Tab: View the seven-day weather forecast.
+   
     2.Soil Tab: Enter your location and view detailed soil data.
+   
     3.Suggested Crops Tab: Get crop suggestions and related pesticide and fertilizer recommendations.
+   
     4.E-Commerce Tab: Purchase the recommended products.
+
+API Endpoints:
