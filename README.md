@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+INTRODUCTION: Smart Agriculture Platform is a comprehensive solution designed to empower farmers with the latest technology to optimize crop production. The platform leverages weather forecasting, soil analysis, and crop suggestion algorithms to provide tailored advice for farmers. Additionally, it offers an integrated e-commerce solution to purchase recommended pesticides, fertilizers, and seeds.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FEATURES:
 
-## Available Scripts
+User Registration: Secure account creation and authentication using MongoDB.
+Weather Forecast: A seven-day weather report, including temperature, precipitation, and humidity.
+Soil Analysis: Detailed soil type data based on user location and historical crop and pesticide usage.
+Crop Suggestions: Recommendations for five suitable crops based on land type, along with additional crop suggestions with required pesticides and fertilizers.
+E-Commerce: Integrated shopping platform for purchasing recommended pesticides, fertilizers, and seeds.
+TECHNOLOGIES USED:
 
-In the project directory, you can run:
+frontend: React.js
+Backend: node, express.js
+database: MongoDB
+APIs: weather(open-meteo), Soil(IARC)
+FETCHAI Uagents. one of which gets data from 'open-meteo' API.
+Starting the Application:
 
-### `npm start`
+Go to master branch in github repository
+Download files in the same manner as the uploaded project directory
+In terminal/command prompt navigate to project directory
+Enter client directory and use the code 'npm start' to start the frontend server at localhost:3000
+Then navigate to server directory and enter the following code 'node index.js' to start backend server at localhost:3001
+The mongodb database can be accesed through 'mongodb://localhost:27017/myapp'
+The weatheragent.py is running on localhost:5000/weather
+USAGE:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Register an account: Navigate to the registration page and create a new account.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These details will be added to the MongoDB database
 
-### `npm test`
+Log in: Use your credentials to log in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate through the platform:
 
-### `npm run build`
+1.Weather Tab: View the seven-day weather forecast.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.Soil Tab: Enter your location and view detailed soil data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.Suggested Crops Tab: Get crop suggestions and related pesticide and fertilizer recommendations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4.E-Commerce Tab: Purchase the recommended products.
