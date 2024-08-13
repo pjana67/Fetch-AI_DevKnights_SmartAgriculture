@@ -1,3 +1,5 @@
+FETCH.AI HACKATHON SMART AGRICULTURE APP
+
 INTRODUCTION: Smart Agriculture Platform is a comprehensive solution designed to empower farmers with the latest technology to optimize crop production. The platform leverages weather forecasting, soil analysis, and crop suggestion algorithms to provide tailored advice for farmers. Additionally, it offers an integrated e-commerce solution to purchase recommended pesticides, fertilizers, and seeds.
 
 FEATURES:
